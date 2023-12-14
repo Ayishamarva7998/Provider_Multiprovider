@@ -14,9 +14,8 @@ class Home_screen extends StatelessWidget {
         ),
         body: Center(
           child: Text(
-            // context.watch<UserProvider>().userName,
-            "Your Body Content",
-          ),
+            context.watch<UserProvider>().userName,
+          )
         ),
       ),
     );
