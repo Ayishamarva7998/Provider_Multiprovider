@@ -37,6 +37,15 @@ class Settings_screen extends StatelessWidget {
                 border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(30))),
           ),
+          SizedBox(height: 20,),
+          TextFormField(
+            controller: userNameController,
+            decoration: InputDecoration(
+              border: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(30)
+              )
+            ),
+          ),
           const SizedBox(
             height: 10,
           ),
